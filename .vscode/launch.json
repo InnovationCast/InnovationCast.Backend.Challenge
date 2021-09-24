@@ -13,7 +13,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net5.0/innovationcast-backend-challenge.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/Backend.Challenge.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
