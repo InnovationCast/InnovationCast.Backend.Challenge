@@ -1,9 +1,9 @@
 using System.Linq;
-using InnovationCast.Backend.Challenge.Dtos;
-using InnovationCast.Backend.Challenge.ServiceModels;
+using Backend.Challenge.Dtos;
+using Backend.Challenge.ServiceModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace InnovationCast.Backend.Challenge.Controllers
+namespace Backend.Challenge.Controllers
 {
     public class MainController : Controller
     {
@@ -16,7 +16,7 @@ namespace InnovationCast.Backend.Challenge.Controllers
         {
             return new GetUserResponse
             {
-                Users=id.ToDictionary(i => i, i => new UserDto
+                Users = id.ToDictionary(i => i, i => new UserDto
                 {
                     Id = i,
                     Username = $"User {i}",

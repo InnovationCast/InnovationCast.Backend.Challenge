@@ -1,4 +1,4 @@
-namespace InnovationCast.Backend.Challenge.Dtos
+namespace Backend.Challenge.Dtos
 {
     public class UserDto
     {

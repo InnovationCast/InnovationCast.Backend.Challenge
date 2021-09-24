@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace InnovationCast.Backend.Challenge
+namespace Backend.Challenge
 {
     public class Program
     {

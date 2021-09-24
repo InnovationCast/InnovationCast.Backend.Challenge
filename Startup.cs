@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace InnovationCast.Backend.Challenge
+namespace Backend.Challenge
 {
     public class Startup
     {

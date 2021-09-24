@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace InnovationCast.Backend.Challenge.Pages
+namespace Backend.Challenge.Pages
 {
     public class IndexModel : PageModel
     {
