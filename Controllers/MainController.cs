@@ -1,9 +1,9 @@
 using System.Linq;
-using innovationcast_backend_challenge.Dtos;
-using innovationcast_backend_challenge.ServiceModels;
+using InnovationCast.Backend.Challenge.Dtos;
+using InnovationCast.Backend.Challenge.ServiceModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace innovationcast_backend_challenge.Controllers
+namespace InnovationCast.Backend.Challenge.Controllers
 {
     public class MainController : Controller
     {
@@ -11,7 +11,7 @@ namespace innovationcast_backend_challenge.Controllers
         {
         }
 
-        // This action responds to the url /main/users/42,24
+        // This action responds to the url /main/users/42 and /main/users?id=4&id=10
         public GetUserResponse Users(int[] id)
         {
             return new GetUserResponse

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using innovationcast_backend_challenge.Dtos;
+using InnovationCast.Backend.Challenge.Dtos;
 
-namespace innovationcast_backend_challenge.ServiceModels
+namespace InnovationCast.Backend.Challenge.ServiceModels
 {
     public class GetUserResponse
     {
